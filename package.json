@@ -1,0 +1,16 @@
+{
+  "name": "execution-flow-demo",
+  "version": "1.0.0",
+  "description": "Node.js project for practicing GitHub Actions execution flow control",
+  "main": "src/calculator.js",
+  "scripts": {
+    "lint": "eslint src/ tests/",
+    "test": "jest tests/calculator.test.js --verbose",
+    "test:experimental": "jest tests/experimental.test.js --verbose",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  }
+}
